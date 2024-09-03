@@ -19,35 +19,27 @@
 # Change the file extension to match the format (.xml for XML, etc...)
 #
 ###
-title: "TODO - Your title"
-abbrev: "TODO - Abbreviation"
+title: "BGP Origin Validation Improvement Based on AS Relationship"
 category: info
 
-docname: draft-todo-yourname-protocol-latest
-submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
+docname: draft-huang-sidrops-BGP Origin Validation Improvement Based on AS Relationship-00
+submissiontype: IETF
 number:
 date:
 consensus: true
 v: 3
-area: AREA
-workgroup: WG Working Group
+area: ops
+workgroup: sidrops
 keyword:
- - next generation
- - unicorn
- - sparkling distributed ledger
-venue:
-  group: WG
-  type: Working Group
-  mail: WG@example.com
-  arch: https://example.com/WG
-  github: USER/REPO
-  latest: https://example.com/LATEST
+ - origin validation
+ - false positive
+ - AS relationship
 
 author:
  -
-    fullname: Your Name Here
-    organization: Your Organization Here
-    email: your.email@example.com
+    fullname: Mingqing Huang
+    organization: Zhongguancun Laboratory
+    email: huangmq@zgclab.edu.cn
 
 normative:
 
