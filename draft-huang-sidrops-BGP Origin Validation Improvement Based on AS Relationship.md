@@ -48,7 +48,9 @@ informative:
 
 --- abstract
 
-As the process of BGP Route Origin AS (ROA) objects registration and distribution in the RPKI system is independent with BGP prefix announcemnet in real network, therefore there always exist the accuracy and timeliness challenges of ROA records, which inevitably brings false positive issue of route origin validation. 有研究表明相当大比例的起源验证假阳性，存在起源冲突的2个AS之间存在一定的邻居关系。本文档通过引入AS邻居关系，帮助进一步排除ROV假阳性。 
+As the process of BGP Route Origin AS (ROA) objects registration and distribution in the RPKI system is independent with BGP prefix announcemnet in real network, therefore there always exist the accuracy and timeliness challenges of ROA records, which inevitably brings false positive issue of route origin validation. Studies have shown that, in most cases, two ASes related to origin validation false positive exist neigher AS relationship. 
+
+This document aims to improve route origin validation by leveraging the AS relationshop information to identify the legitimate prefix conflicts as much as possible. 
 
 --- middle
 
